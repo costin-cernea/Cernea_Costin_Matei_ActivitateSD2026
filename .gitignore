@@ -1,19 +1,29 @@
-# Fișiere obiect și executabile
+### C/C++ specific ###
+# Fișiere obiect și biblioteci
 *.o
 *.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executabile (Standard pentru macOS/Linux și Windows)
 *.out
 *.exe
+# Dacă obișnuiești să îți numești executabilul simplu "main" sau "app"
+main
+app
+test
 
-# Foldere VS Code
+# Foldere pentru debug (generate de macOS/GDB/LLDB)
+*.dSYM/
+
+### IDE specific (VS Code) ###
 .vscode/
-
-# Fișiere temporare sau de sistem
-*.log
-*.tmp
 *.swp
-.DS_Store
-Thumbs.db
 
-# Foldere de build/test
-test_sd/
-build/
+### OS specific ###
+.DS_Store
+.AppleDouble
+.LSOverride
