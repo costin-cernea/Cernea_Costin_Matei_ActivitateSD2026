@@ -1,0 +1,19 @@
+# Fișiere obiect și executabile
+*.o
+*.obj
+*.out
+*.exe
+
+# Foldere VS Code
+.vscode/
+
+# Fișiere temporare sau de sistem
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Foldere de build/test
+test_sd/
+build/
